@@ -96,7 +96,7 @@ public class TelaHomePrincipal extends AppCompatActivity {
 
     private void irNovaTela() {
 
-        Intent intent = new Intent(TelaHomePrincipal.this, TelaHomePrincipal.class);
+        Intent intent = new Intent(TelaHomePrincipal.this, NovaTela.class);
         startActivity(intent);
         finish();
 
