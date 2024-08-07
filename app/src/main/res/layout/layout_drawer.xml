@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/layoutDrawer"
+        android:layout_width="230dp"
+        android:layout_height="match_parent"
+        android:background="#009688"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:background="#B5B5B5">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginStart="20dp"
+                app:srcCompat="@drawable/baseline_person_24" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:padding="5dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:text="Nome do usuario"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EMAIL"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/buttonHome"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Home"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/buttonRoteiro"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Roteiro Personalizado"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/buttonViajante"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Viajante Gamificado"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/buttonConfiguracoes"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Configurações"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/buttonSair"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Sair"
+            android:layout_marginTop="20dp"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
